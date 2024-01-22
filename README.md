@@ -9,7 +9,7 @@ This module is only intended for use in python <a href="https://jupyter.org/">ju
 Before using the ibl-module, make sure that the variable *basePath* contains a valid <br>
 absolute path to the directory where the ibl data should be stored.
 
-This module needs the following dependencies:
+This module requires the following dependencies:
 - <a href="https://int-brain-lab.github.io/ONE/">one-api</a> (2.5.0)
 - <a href="https://numpy.org/">NumPy</a> (1.24.3)
 - <a href="https://github.com/int-brain-lab/ibllib">ibllib</a> (2.26)
