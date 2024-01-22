@@ -436,7 +436,7 @@ def getContrastThetaPowerCorrelation(pids: list, regions: list, saveResult: bool
     regions: list
         List of regions. Note: if len(regions) < len(pids), the first region of the list will be assumed for every pid
     saveResult: bool, optional
-        If the computed mean theta power should be saved (Default is False)
+        If the computed mean theta power should be saved (default is False)
 
     Returns
     -------
@@ -521,7 +521,7 @@ def getReactionTimeThetaPowerCorrelation(pids: list, regions: list, saveResult: 
     regions: list
         List of regions. Note: if len(regions) < len(pids), the first region of the list will be assumed for every pid
     saveResult: bool, optional
-        If the computed mean theta power should be saved (Default is False)
+        If the computed mean theta power should be saved (default is False)
 
     Returns
     -------
@@ -598,9 +598,9 @@ def getLRThetaPowerKStestResult(pids: list, regions: list, windowLen: int = 0, s
     regions: list
         List of regions. Note: if len(regions) < len(pids), the first region of the list will be assumed for every pid
     windowLen: int, optional
-        Length of the window for the window averaging function. If windowLen = 0, no averaging is applied (Default is 0)
+        Length of the window for the window averaging function. If windowLen = 0, no averaging is applied (default is 0)
     saveResult: bool, optional
-        If the computed mean theta power should be saved (Default is False)
+        If the computed mean theta power should be saved (default is False)
 
     Returns
     -------
@@ -688,9 +688,9 @@ def generateSpectrogramForData(data: list, meta: dict, plot: bool = False, title
     meta: dict
         The metadata for the given data. Used for sample rate & time window of data
     plot: bool, optional
-        If the result should be plotted (Default is False)
+        If the result should be plotted (default is False)
     title: str, optional
-        The title of the plot, only relevant if plot = True (Default is "")
+        The title of the plot, only relevant if plot = True (default is "")
 
     Returns
     -------
@@ -743,9 +743,9 @@ def generatePowerSpectrumForData(data: list, meta: dict, plot: bool = False, tit
     meta: dict
         The metadata for the given data. Used for sample rate & time window of data
     plot: bool, optional
-        If the result should be plotted (Default is False)
+        If the result should be plotted (default is False)
     title: str, optional
-        The title of the plot, only relevant if plot = True (Default is "")
+        The title of the plot, only relevant if plot = True (default is "")
 
     Returns
     -------
@@ -814,7 +814,7 @@ def parameterizePowerSpectra(ps: list, containsLog: bool = False, reFit: bool = 
     ps: list
         List of the original power spectra
     reFit: bool, optional
-        If the aperiodic component should be re-fitted or not (Default is False)
+        If the aperiodic component should be re-fitted or not (default is False)
         [We discovered that the model is more accurate without the re-fitting step]
 
     Returns
