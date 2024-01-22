@@ -5,6 +5,8 @@
 # - tqdm
 # - numpy
 # - matplotlib
+# - scipy
+# - fooof
 
 # Import required libraries
 import numpy as np
